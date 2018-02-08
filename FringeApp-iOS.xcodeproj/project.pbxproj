@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026DBD664F94ACF580346BF0 /* Pods_FringeApp_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F5B542EF5FE22C64C9ACF4 /* Pods_FringeApp_iOSUITests.framework */; };
+		4A7F7A05C44E9CF3FC1B893F /* Pods_FringeApp_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986BB20FCA74A69316B9CE53 /* Pods_FringeApp_iOS.framework */; };
 		D08156FE202BD47A008DB5D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08156FD202BD47A008DB5D6 /* AppDelegate.swift */; };
 		D0815700202BD47A008DB5D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08156FF202BD47A008DB5D6 /* ViewController.swift */; };
 		D0815703202BD47A008DB5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0815701202BD47A008DB5D6 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D0815708202BD47A008DB5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0815706202BD47A008DB5D6 /* LaunchScreen.storyboard */; };
 		D0815713202BD47A008DB5D6 /* FringeApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815712202BD47A008DB5D6 /* FringeApp_iOSTests.swift */; };
 		D081571E202BD47A008DB5D6 /* FringeApp_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D081571D202BD47A008DB5D6 /* FringeApp_iOSUITests.swift */; };
+		ECC47C50EE6D8B064CCE5DCF /* Pods_FringeApp_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BE6A41DB6222C06B483D1A /* Pods_FringeApp_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D04235F307316A9D693B3B7 /* Pods-FringeApp-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringeApp-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FringeApp-iOSUITests/Pods-FringeApp-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE33A3DD7CDB560544C6BF3 /* Pods-FringeApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringeApp-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FringeApp-iOS/Pods-FringeApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8DDB69208EDBC540CEBC7369 /* Pods-FringeApp-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringeApp-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FringeApp-iOSUITests/Pods-FringeApp-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		986BB20FCA74A69316B9CE53 /* Pods_FringeApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FringeApp_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE7A81F92AF58DDD8D1D9C0 /* Pods-FringeApp-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringeApp-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FringeApp-iOSTests/Pods-FringeApp-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C850FC6FAAA0B0935F6253C3 /* Pods-FringeApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringeApp-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FringeApp-iOS/Pods-FringeApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D08156FA202BD47A008DB5D6 /* FringeApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FringeApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08156FD202BD47A008DB5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08156FF202BD47A008DB5D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		D0815719202BD47A008DB5D6 /* FringeApp-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FringeApp-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D081571D202BD47A008DB5D6 /* FringeApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FringeApp_iOSUITests.swift; sourceTree = "<group>"; };
 		D081571F202BD47A008DB5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F5B542EF5FE22C64C9ACF4 /* Pods_FringeApp_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FringeApp_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7263ACADE0AB18EE007B6E /* Pods-FringeApp-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FringeApp-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FringeApp-iOSTests/Pods-FringeApp-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9BE6A41DB6222C06B483D1A /* Pods_FringeApp_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FringeApp_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7F7A05C44E9CF3FC1B893F /* Pods_FringeApp_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC47C50EE6D8B064CCE5DCF /* Pods_FringeApp_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026DBD664F94ACF580346BF0 /* Pods_FringeApp_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CC7088CB514D7B9E0E44780 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C850FC6FAAA0B0935F6253C3 /* Pods-FringeApp-iOS.debug.xcconfig */,
+				7AE33A3DD7CDB560544C6BF3 /* Pods-FringeApp-iOS.release.xcconfig */,
+				9DE7A81F92AF58DDD8D1D9C0 /* Pods-FringeApp-iOSTests.debug.xcconfig */,
+				DF7263ACADE0AB18EE007B6E /* Pods-FringeApp-iOSTests.release.xcconfig */,
+				2D04235F307316A9D693B3B7 /* Pods-FringeApp-iOSUITests.debug.xcconfig */,
+				8DDB69208EDBC540CEBC7369 /* Pods-FringeApp-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8246DC9C9C94B811DF353EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986BB20FCA74A69316B9CE53 /* Pods_FringeApp_iOS.framework */,
+				E9BE6A41DB6222C06B483D1A /* Pods_FringeApp_iOSTests.framework */,
+				D0F5B542EF5FE22C64C9ACF4 /* Pods_FringeApp_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D08156F1202BD47A008DB5D6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D0815711202BD47A008DB5D6 /* FringeApp-iOSTests */,
 				D081571C202BD47A008DB5D6 /* FringeApp-iOSUITests */,
 				D08156FB202BD47A008DB5D6 /* Products */,
+				4CC7088CB514D7B9E0E44780 /* Pods */,
+				8246DC9C9C94B811DF353EF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0815722202BD47A008DB5D6 /* Build configuration list for PBXNativeTarget "FringeApp-iOS" */;
 			buildPhases = (
+				8D7DCDD048D0557E40B01D4E /* [CP] Check Pods Manifest.lock */,
 				D08156F6202BD47A008DB5D6 /* Sources */,
 				D08156F7202BD47A008DB5D6 /* Frameworks */,
 				D08156F8202BD47A008DB5D6 /* Resources */,
+				73231C192D8F807882853115 /* [CP] Embed Pods Frameworks */,
+				74D56BA7545ECA5665723B12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0815725202BD47A008DB5D6 /* Build configuration list for PBXNativeTarget "FringeApp-iOSTests" */;
 			buildPhases = (
+				00DCDDC227D4626D06AC3BA9 /* [CP] Check Pods Manifest.lock */,
 				D081570A202BD47A008DB5D6 /* Sources */,
 				D081570B202BD47A008DB5D6 /* Frameworks */,
 				D081570C202BD47A008DB5D6 /* Resources */,
+				74D861DDC4B8DAC934E57F8F /* [CP] Embed Pods Frameworks */,
+				FF81B6D3F4BA33E37E31C478 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0815728202BD47A008DB5D6 /* Build configuration list for PBXNativeTarget "FringeApp-iOSUITests" */;
 			buildPhases = (
+				A4DD643944975F29A83F23E4 /* [CP] Check Pods Manifest.lock */,
 				D0815715202BD47A008DB5D6 /* Sources */,
 				D0815716202BD47A008DB5D6 /* Frameworks */,
 				D0815717202BD47A008DB5D6 /* Resources */,
+				FC01AC901CF6E68F23A93161 /* [CP] Embed Pods Frameworks */,
+				3498525D94965A40577630D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DCDDC227D4626D06AC3BA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FringeApp-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3498525D94965A40577630D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FringeApp-iOSUITests/Pods-FringeApp-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73231C192D8F807882853115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FringeApp-iOS/Pods-FringeApp-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Turbolinks/Turbolinks.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turbolinks.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FringeApp-iOS/Pods-FringeApp-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D56BA7545ECA5665723B12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FringeApp-iOS/Pods-FringeApp-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D861DDC4B8DAC934E57F8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FringeApp-iOSTests/Pods-FringeApp-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7DCDD048D0557E40B01D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FringeApp-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4DD643944975F29A83F23E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FringeApp-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC01AC901CF6E68F23A93161 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FringeApp-iOSUITests/Pods-FringeApp-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF81B6D3F4BA33E37E31C478 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FringeApp-iOSTests/Pods-FringeApp-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D08156F6202BD47A008DB5D6 /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		D0815723202BD47A008DB5D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C850FC6FAAA0B0935F6253C3 /* Pods-FringeApp-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +639,7 @@
 		};
 		D0815724202BD47A008DB5D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE33A3DD7CDB560544C6BF3 /* Pods-FringeApp-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +655,7 @@
 		};
 		D0815726202BD47A008DB5D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE7A81F92AF58DDD8D1D9C0 /* Pods-FringeApp-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +673,7 @@
 		};
 		D0815727202BD47A008DB5D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7263ACADE0AB18EE007B6E /* Pods-FringeApp-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		D0815729202BD47A008DB5D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D04235F307316A9D693B3B7 /* Pods-FringeApp-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +708,7 @@
 		};
 		D081572A202BD47A008DB5D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDB69208EDBC540CEBC7369 /* Pods-FringeApp-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

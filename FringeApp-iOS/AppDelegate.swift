@@ -14,19 +14,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func startApplication() {
         session.delegate = self as SessionDelegate
-        visit(URL: URL(string: "https://fringeapp.herokuapp.com")!)
+        visit_without_animation(URL: URL(string: "https://fringeapp.herokuapp.com")!)
     }
     
-    func visit(URL: URL) {
+    func visit_with_animation(URL: URL) {
         let visitableViewController = VisitableViewController(url: URL)
         navigationController.pushViewController(visitableViewController, animated: true)
+        session.visit(visitableViewController)
+    }
+    
+    func visit_without_animation(URL: URL) {
+        let visitableViewController = VisitableViewController(url: URL)
+        navigationController.pushViewController(visitableViewController, animated: false)
         session.visit(visitableViewController)
     }
 }
 
 extension AppDelegate: SessionDelegate {
     func session(_ session: Session, didProposeVisitToURL URL: URL, withAction action: Action) {
-        visit(URL: URL)
+        if action == Turbolinks.Action.Replace {
+            visit_without_animation(URL: URL)
+        } else {
+            visit_with_animation(URL: URL)
+        }
+
     }
     
     func session(_ session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError) {
